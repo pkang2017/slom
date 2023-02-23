@@ -23,7 +23,7 @@ After pre-training, to run supervised training on CIFAR-10, execute:
 
 See ``spiking_glom_new/flags_Agglomerator_slom.py`` to check all the flag meanings.
 
-## Training on Hybrid_Spiking GLOM
+## Training on Hybrid Spiking GLOM
 
 To run contrastive pre-training on CIFAR-10, execute:
 
@@ -49,10 +49,10 @@ For Hybrid Spiking GLOM:
 
 ## Pre-trained models
 
-We provide pre-trained models [Potential-assisted Spiking GLOM and Hybrid Spiking GLOM](https://drive.google.com/drive/folders/1jiVrP2k5qW7FZhe2LGsRlJmDKwtz2GeA?usp=sharing) for calculating the firing rates and specific [5-level Potential-assisted Spiking GLOM](https://drive.google.com/drive/folders/1d5-kvyTHoWjsHxm9eXtPrrfYx8wNMqs7?usp=sharing) for ``freeze to plot``.
+We provide pre-trained models [Potential-assisted Spiking GLOM and Hybrid Spiking GLOM](https://drive.google.com/drive/folders/1jiVrP2k5qW7FZhe2LGsRlJmDKwtz2GeA?usp=sharing) for ``calculate the firing rates`` and specific [5-level Potential-assisted Spiking GLOM](https://drive.google.com/drive/folders/1d5-kvyTHoWjsHxm9eXtPrrfYx8wNMqs7?usp=sharing) for ``freeze to plot``.
 
 ## Credits
 
 - Agglomerator by [Garau et al.](https://github.com/mmlab-cv/Agglomerator)
-- SpikingJelly
+- [SpikingJelly](https://github.com/fangwei123456/spikingjelly) 
 
