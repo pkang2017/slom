@@ -15,11 +15,13 @@ to install the required dependencies.
 
 To run contrastive pre-training on CIFAR-10, execute:
 
-``python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_contrast.cfg``
+```bash
+python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_contrast.cfg```
 
 After pre-training, to run supervised training on CIFAR-10, execute:
 
-``python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_supervise.cfg``
+```bash
+python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_supervise.cfg```
 
 See ``spiking_glom_new/flags_Agglomerator_slom.py`` to check all the flag meanings.
 
@@ -27,25 +29,30 @@ See ``spiking_glom_new/flags_Agglomerator_slom.py`` to check all the flag meanin
 
 To run contrastive pre-training on CIFAR-10, execute:
 
-``python hybrid_spiking_glom_new/main.py --flagfile hybrid_spiking_glom_config_new/spiking_glom_contrast.cfg``
+```bash
+python hybrid_spiking_glom_new/main.py --flagfile hybrid_spiking_glom_config_new/spiking_glom_contrast.cfg```
 
 After pre-training, to run supervised training on CIFAR-10, execute:
 
-``python hybrid_spiking_glom_new/main.py --flagfile hybrid_spiking_glom_config_new/spiking_glom_supervise.cfg``
+```bash
+python hybrid_spiking_glom_new/main.py --flagfile hybrid_spiking_glom_config_new/spiking_glom_supervise.cfg```
 
 ## Calculate the firing rates
 
 For Potential-assisted Spiking GLOM:
 
-``python spiking_glom_new/main_energy.py --flagfile spiking_glom_config_new/spiking_glom_energy.cfg``
+```bash
+python spiking_glom_new/main_energy.py --flagfile spiking_glom_config_new/spiking_glom_energy.cfg```
 
 For Hybrid Spiking GLOM:
 
-``python hybrid_spiking_glom_new/main.py --flagfile hybrid_spiking_glom_config_new/spiking_glom_energy.cfg``
+```bash
+python hybrid_spiking_glom_new/main.py --flagfile hybrid_spiking_glom_config_new/spiking_glom_energy.cfg```
 
 ## Freeze to plot
 
-``python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_plot.cfg``
+```bash
+python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_plot.cfg```
 
 ## Pre-trained models
 
