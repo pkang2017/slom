@@ -16,12 +16,14 @@ to install the required dependencies.
 To run contrastive pre-training on CIFAR-10, execute:
 
 ```bash
-python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_contrast.cfg```
+python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_contrast.cfg
+```
 
 After pre-training, to run supervised training on CIFAR-10, execute:
 
 ```bash
-python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_supervise.cfg```
+python spiking_glom_new/main.py --flagfile spiking_glom_config_new/spiking_glom_supervise.cfg
+```
 
 See ``spiking_glom_new/flags_Agglomerator_slom.py`` to check all the flag meanings.
 
