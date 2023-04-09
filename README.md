@@ -1,5 +1,5 @@
 # Spiking GLOM
-"Spiking GLOM: Bio-inspired Architecture for Next-generation Object Recognition", Peng Kang, Srutarshi Banerjee, Henry Chopp, Aggelos Katsaggelos, Oliver Cossairt.
+"Spiking GLOM: Bio-inspired Architecture for Next-generation Object Recognition", Peng Kang, Srutarshi Banerjee, Henry Chopp, Aggelos Katsaggelos, Oliver Cossairt. In review.
 
 ## Setup
 
